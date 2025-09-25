@@ -40,27 +40,27 @@ fn assignment_2()
     let numbers = [1,2,3,4,5,6,7,8,9,10];
     
     //Here I Use a for loop to iterate through the array and for each number
-    for n in 0..10
+    for n in numbers
     {
         //If it's divisible by both 3 and 5, print "FizzBuzz"
-        if numbers[n]%3 == 0 && n%5 == 0
+        if n%3 == 0 && n%5 == 0
         {
             println!("FizzBuzz");
         }
         //If the number is divisible by 3, print "Fizz" instead
-        else if numbers[n]%3 == 0
+        else if n%3 == 0
         {
             println!("Fizz");
         }
         //If the number is divisible by 5, print "Buzz" instead
-        else if numbers[n]%5 == 0
+        else if n%5 == 0
         {
             println!("Buzz");
         }
         //Print whether it's even or odd using your is_even function
         else
         {
-            if is_even(numbers[n].try_into().unwrap())
+            if is_even(n.try_into().unwrap())
             {
                 println!("Even")
             }
@@ -120,6 +120,8 @@ fn assignment_3()
     secret = secret + 1;
     while guesses < 10
     {
+        guesses += 1;
+
         check = check_guess(guess, secret);
         if check == 0
         {
@@ -134,14 +136,19 @@ fn assignment_3()
         {
             println!("Your guess is too low at {}",guess);
         }
-        guess = guess + 1;
-        guesses = guesses + 1
+        guess += 1;
+    }
+    if guesses == 10
+    {
+        println!("You're over the 9 total guesses, Try Again later!")
     }
     secret = 3;
     guess = 8;
     guesses = 0;
     while guesses < 10
     {
+        guesses += 1;
+
         check = check_guess(guess, secret);
         if check == 0
         {
@@ -156,8 +163,7 @@ fn assignment_3()
         {
             println!("Your guess is too low at {}",guess);
         }
-        guess = guess - 1;
-        guesses = guesses + 1
+        guess -= 1;
     }
     if guesses == 10
     {
