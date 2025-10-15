@@ -36,10 +36,10 @@ impl Inventory
 
 fn main() 
 {
-    let a = "An Apple a day keeps the Doctor away.".to_string();
-    let b = "A Banana boost energy in a peel.".to_string();
-    let t = "A Tomato a day keeps the sunburn away.".to_string();
-    let k = "A Kiwi a day, is not enough".to_string();
+    let a = "An apple a day keeps anyone away if you throw it hard enough.".to_string();
+    let b = "Bananas never get lonely, they hang out in bunches.".to_string();
+    let t = "Tomatoes tried to be fruit but couldn’t ketchup with the others.".to_string();
+    let k = "Kiwis are like introverts. Fuzzy on the outside, sweet once you open up.".to_string();
     let fruits = vec![Fruit::Banana(b), Fruit::Apple(a), Fruit::Tomato(t), Fruit::Kiwi(k)];
 
     let grocery_store = Inventory
