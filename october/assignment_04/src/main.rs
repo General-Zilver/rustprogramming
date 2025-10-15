@@ -52,10 +52,15 @@ fn reading_from_file() {
     println!("api key: {}", config.api_key);
     println!("port: {}", config.port);
 }
-
-fn main() {
+fn create_and_write_to_file() {
     let mut cfile = File::create("config.txt").unwrap();
-
+    writeln!(cfile, "Zilverblack@gmail.com").unwrap();
+    writeln!(cfile, "wr9wvp7vr7gw396rj").unwrap();
+    writeln!(cfile, "8080").unwrap();
+}
+fn main() {
+    
+    create_and_write_to_file();
     reading_from_console();
     reading_from_file();
 }
