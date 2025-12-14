@@ -248,15 +248,59 @@ fn process_file(path: PathBuf) -> FileAnalysis {
 }
 
 fn main() {
-    // CHANGED: Wrap pool in Arc so we can share it with the listener
+    // Wrap pool in Arc so we can share it with the listener
     let pool = Arc::new(ThreadPool::new(8));
     let (tx, rx) = mpsc::channel();
 
-    let path_str = "./books"; 
-    let root_path = PathBuf::from(path_str);
+    // --- INTERACTIVE DIRECTORY INPUT ---
+    let mut directories = Vec::new();
+    println!("--- Parallel File Processor ---");
+    println!("Enter directory paths to scan.");
+    println!("Type 'done' or just press Enter when you are finished adding folders.");
 
-    println!("Scanning directory: {:?}", root_path);
-    let (files, mut scan_errors) = get_all_files(&root_path);
+    loop {
+        print!("Please add a Directory (Just press enter or type 'done' when finished): ");
+        // Flush stdout so the ">" prompt appears immediately
+        let _ = io::stdout().flush(); 
+        
+        let mut input = String::new();
+        match io::stdin().read_line(&mut input) {
+            Ok(_) => {
+                let path_str = input.trim();
+                if path_str.is_empty() || path_str.eq_ignore_ascii_case("done") {
+                    break;
+                }
+                
+                // Optional: Check if path exists before adding
+                let path = PathBuf::from(path_str);
+                if path.exists() && path.is_dir() {
+                    directories.push(path);
+                    println!("Added: {:?}", path_str);
+                } else {
+                    println!("Warning: '{}' is not a valid directory. Ignored.", path_str);
+                }
+            }
+            Err(error) => println!("Error reading input: {}", error),
+        }
+    }
+
+    if directories.is_empty() {
+        println!("No directories selected. Exiting.");
+        return;
+    }
+    // -----------------------------------
+
+    let mut files = Vec::new();
+    let mut scan_errors = Vec::new();
+
+    // Iterate over the user-provided directories
+    for root_path in directories {
+        println!("Scanning directory: {:?}", root_path);
+        let (dir_files, dir_errors) = get_all_files(&root_path);
+        files.extend(dir_files);
+        scan_errors.extend(dir_errors);
+    }
+
     let total_found = files.len();
     
     println!("Found {} files to process.", total_found);
