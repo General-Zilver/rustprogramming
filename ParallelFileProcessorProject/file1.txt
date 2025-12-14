@@ -1,0 +1,14 @@
+That is perfect. You now have a working Parallel Map-Reduce system.
+
+Now we swap the "dummy" parts for real parts. We have two tasks left to finish the project:
+
+The Brain: Make process_file actually count words/lines.
+
+The Feeder: Make main actually look through folders for files.
+
+Let's start with The Brain.
+
+Phase 3: The Real Analyzer
+We need to read the file, count the stats, and handle potential errors (like if a file is locked or binary).
+
+Step 1: Add these imports to the top You need these to read files and track time.

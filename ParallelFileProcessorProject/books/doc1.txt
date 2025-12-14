@@ -1,0 +1,183 @@
+Source Document 04: Narrative Directives & Formatting Rules
+I. The Prime Directive: "The Invisible Hand"
+Goal: Do not overwrite the Author. Enhance the Author.
+Targeted Feedback: Never rewrite an entire scene unless explicitly asked. Identify the specific paragraph or sentence that needs work and offer a "Surgical Edit."
+The "Diff" Approach: Show what was changed and why.
+Example: "I tweaked this dialogue tag because Zilver wouldn't sound this confident yet."
+II. Voice & Tone Protocols (The "Medieval Filter")
+1. The "Zilver" Voice:
+Traits: Witty, charming, arrogant but insecure, unreliable narrator. He thinks he is smarter than everyone (and he is), but he lacks wisdom.
+The Unreliable Lens: Zilver often misinterprets magic as "Physics" or "Luck." The narration should reflect his confusion.
+Wrong: "Zilver cast a spell."
+Right: "Zilver leaned on the wall, and by some miracle, the stone shifted."
+2. The Jargon Ban (Anachronism Check):
+Rule: No modern scientific terms in dialogue or internal monologue. Zilver is a genius, but he lives in a feudal society.
+Translation Dictionary:
+Instead of "Energy/Calories": Use "Vigor," "Marrow-ache," "Fuel," "Heat."
+Instead of "Synapse/Neuron": Use "Thoughts," "Mind-fire," "Nerves," "The spark."
+Instead of "Velocity/Trajectory": Use "Speed," "Arc," "Path," "flight."
+Instead of "Logic/Calculation": Use "Reason," "The Puzzle," "The pattern."
+III. The Consistency Engine (Plot Hole Police)
+Action: In every session, scan the text against Source Docs 01, 02, & 03.
+The Magic Audit: If Zilver performs a feat, verify the Cost.
+Flag: "Zilver lifted the cart, but he didn't eat afterwards. He should be trembling or fainting here."
+The Intent Check: If a Citizen (Non-Saint) casts magic easily, Flag it.
+Flag: "The guard shouldn't be able to ignore the heat of his own torch unless he is a Tyrant. This breaks the Impedance Law."
+IV. The Breadcrumb Generator (Foreshadowing)
+Action: When a new key item or mechanic is introduced, scan the previous text for setup opportunities.
+The "Harry Potter" Effect: If an object/skill saves the day in Chapter 10, the AI must suggest a mundane introduction in Chapter 2.
+Prompt: "You just established that Elara uses rats to spy. We should go back to Chapter 1 and add a line where Zilver notices she always has crumbs in her pockets, or a mouse watching her from the rafters."
+V. Session Initialization Protocol
+Instructions for the AI at the start of every new session:
+Read: Scan the provided Source Documents (01-03) and the Current Draft.
+Verify: Check the last written scene for open loops (e.g., Is Zilver still injured? Is he still hungry?).
+Report: specific "Continuity Alerts" before suggesting new text.
+Example: "Alert: Last session ended with Zilver losing his shoes. Ensure he is barefoot in this scene."
+
+
+Source Document 03: Setting & The Mechanics of Awakening
+I. The Era: The Great Awakening
+Context: A standard Medieval Fantasy setting (Castles, Horses, Swords, Feudalism), but with a biological twist.
+The Threshold: For millennia, the human brain was too primitive to handle the Ethos Field. Magic was effectively non-existent because no one had the hardware to run the software.
+Current State: A biological tipping point has been reached. A small percentage of the population (The Crew, Cygnus, the Cultists) possess the neural density to process the Field.
+Public Perception: Magic is considered a myth, a superstition, or a symptom of madness. "Witchcraft" is feared not because it's powerful, but because it's associated with unexplained fires and sudden deaths (Brain Burnout).
+II. The Status of Magic Users (The "Accident" Rule)
+1. The Crew (Unconscious Casters)
+Rule: No one knows they are a Mage.
+They believe they are just "lucky," "tough," or "good with animals."
+Magic manifests only under Extreme Stress or Deep Emotion.
+The Mechanic:
+Elara: Doesn't cast "Speak with Animals." She just sits quietly, and birds land on her because she feels safe. She thinks she just likes birds.
+Silas: Doesn't cast "Iron Skin." He braces for a punch, expecting it to hurt. When it doesn't, he assumes the guard had a weak arm or hit a bony spot.
+Mara: Doesn't cast "Ignite." She gets furious at a locked door, bangs her fist on it, and the old rusty lock mechanism "happens" to snap from heat stress. She thinks she just hit it hard.
+Kael: Doesn't cast "Time Skip." He runs from guards, panicking. He thinks he barely made the gap. In reality, he arrived 0.5 seconds before he jumped.
+2. Zilver (The Director)
+Role: He is the only one who suspects a pattern, though he attributes it to "Logic" and "Physics" rather than Magic.
+Method: He treats his crew like chess pieces. He positions them where their "natural quirks" (magic) will trigger.
+Example: He puts Silas in the front not because Silas is a wizard, but because "Silas is really lucky in fights."
+3. Cygnus (The Brute Force Scientist)
+Status: He is the only one actively trying to use Magic, but he is doing it wrong.
+The Misconception: Cygnus believes Magic is about Power. He thinks he needs more energy (Batteries/Cultists) to force reality to bend.
+The Reality: He is unaware of the Flow/Saint mechanic. He is trying to push a square peg through a round hole with a sledgehammer.
+The Climax: He only solves the equation when he watches Zilver merge with the water in the final scene.
+III. Technology vs. "Magic"
+Zilver often solves problems with Science that appears to be Magic to the medieval population.
+The Lever/Pulley: The King's Obelisk. The court thinks Zilver chanted a spell to lift the stone. Zilver actually just calculated the fulcrum and used a compound pulley system.
+Chemistry: Zilver's "Potions" are often just basic chemical reactions (e.g., creating smoke bombs or flash powder) enriched by his subconscious magic.
+The Contrast: This blurs the line for the reader and the characters. Is it Magic? Is it Science? It's usually both.
+IV. Timeline of the Story
+The Inciting Incident: Zilver's accidental "Bush Fire" (The Synaptic Crash). The Letter arrives.
+The Gathering: Zilver flees the capital (post-frame job) and unknowingly recruits the Outcasts (The Crew) based on their specific survival skills.
+The Training (The Heists):
+The Crew undertakes "Jobs" to survive/clear Zilver's name.
+Each job stresses them. The stress causes Neural Hypertrophy (Growth).
+Zilver begins to rely on their "Luck."
+The Climax (The Water Room):
+Logic fails. Science fails.
+The Awakening: Zilver consciously chooses to bypass Logic and use Will.
+The Witness: Cygnus watches Zilver manipulate the water without a battery/sacrifice. Cygnus realizes: "I don't need more power. I need less resistance."
+Source Document 02: Character Profiles & Dynamics
+I. The Protagonist
+Name: [[Zilver]] (Alias: Merlin)
+Archetype: The Unconscious Saint / The Architect.
+Affinity: Universal (Saint Variance).
+Note: He is a "Prism." He has no internal filter, allowing him to access all frequencies (Heat, Time, Bio, Force) with 1x Cost, provided his intent is altruistic.
+The Mechanic: Subconscious Calculation ("Fool's Luck").
+Zilver does not "cast" spells consciously (yet). His brain analyzes a problem and the Ethos Field edits reality to fit his solution.
+Visual: He enters a Synaptic Lock (The Trance). He freezes, pupils dilate, breathing stops.
+The Cost: Massive calorie depletion. He suffers from acute hypoglycemia (The Crash) after every major feat.
+Motivation: To prove his innocence, save his friends, and solve the ultimate puzzle (The Origin of Magic).
+II. The Antagonist
+Name: [[High Steward Cygnus]]
+Archetype: The Tyrant / The Dark Mirror.
+Affinity: Universal (Tyrant Variance).
+The Mechanic: Parasitic Conductance.
+Cygnus forces the Ethos Field to obey. To bypass the fatal Synaptic Load of high-level magic, he uses "Batteries" (Cultists) to shoulder the cost.
+Visual: Wears pristine White and Silver. Seemingly ageless. When he casts, people around him get nosebleeds or faint.
+The Goal: To rewrite history. He believes the world is flawed and he is the only one with the "Vision" to fix it (by becoming King/God).
+III. The Crew (The Specialists)
+These characters represent the specific Affinities (Colors of Magic). They are "Citizens" with high potential in one specific area.
+1. Elara (The Mute / "Mouse")
+Affinity: Biomatics (Green Logic).
+Heist Role: The Radar / Surveillance.
+Mechanic: Sensory Bonding. She bonds with small animals (rats/birds) to see through their eyes. She can read the micro-expressions and heart rates of guards to detect lies or patrols.
+Trait: Mute due to trauma. Extremely expressive eyes. Begins malnourished/dirty, reveals a unique beauty as she heals. Eventually speaks only critical intel.
+Future Title: The Origin of Bonding.
+2. Kael (The Outcast)
+Affinity: Chrono-Kinetics (Violet Logic).
+Heist Role: The Ghost / Infiltration.
+Mechanic: Temporal Skipping. He doesn't turn invisible; he steps "between" seconds. He exists in the blind spots of human perception.
+Trait: Asian descent, treated as invisible by society. Uses this social invisibility to fuel his magical invisibility. Quiet, efficient, cynical.
+Future Title: The Origin of Time.
+3. Mara (The Mother)
+Affinity: Thermodynamics (Red Logic).
+Heist Role: The Distraction / Demolitions.
+Mechanic: Thermal Manipulation. She can boil a pot of soup instantly (Hearth) or melt a lock/cause a black powder keg to ignite (Fury). Her body temperature runs naturally high.
+Trait: Voluptuous, protective, maternal. Not an outcast, but "othered." Fiercely defends the crew.
+Future Title: The Origin of Energy.
+4. Silas (The Monk)
+Affinity: Kinetic Reinforcement (Gold Logic).
+Heist Role: The Shield / Muscle.
+Mechanic: Density Shifting. He can harden specific patches of skin to the density of iron to block blows. He can increase his mass to become an immovable object.
+Trait: Elderly Black man, fit physique, shaved head (white hair). Gentle personality, violent capability. Meditates to manage his Synaptic Load.
+Future Title: The Origin of Force.
+IV. The Supporting Cast
+1. Dirk
+Role: The Anchor.
+Function: Zilver’s connection to the mundane world. Dirk is not magic. He reminds the reader (and Zilver) of the stakes for normal people. He provides the resources/hideouts initially.
+2. Melanie
+Role: The Healer (Traditional).
+Function: Represents "Old Medicine" vs. Zilver's "New Magic." She fixes the physical damage Zilver does to himself. A grounded, wise mother figure.
+3. King Daveon
+Role: The Puppet.
+Function: A illiterate, boisterous King who is easily manipulated by Cygnus. He isn't evil, just incompetent and obsessed with his legacy (The Obelisk).
+
+Source Document 01: The Arcane Physics (Magic System)
+I. Core Concept
+Magic in this world is not mystical; it is a Background Field of Physics (The Ethos Field) that interacts with the Human Nervous System. It follows the laws of thermodynamics and conservation of energy.
+II. The Three Immutable Laws
+1. The Law of Source (The Ethos Field)
+Definition: An omnipresent energy field containing all frequencies of reality (Time, Heat, Gravity, Life).
+Access: The human brain acts as a transceiver. Evolution has only recently produced prefrontal cortexes dense enough to process this signal without immediate death.
+2. The Law of Cost (Synaptic Load)
+Fuel: Magic burns Glucose and Neural Plasticity.
+The Sensation: Casting feels like solving a complex equation while sprinting.
+The Limit (Burnout): Overuse causes nosebleeds, migraines, tremors, hypoglycemia (The "Crash"), and eventually stroke/death.
+Recovery: Requires high-calorie food and sleep to repair micro-fractures in the neural pathways.
+3. The Law of Impedance (Signal Clarity)
+The Citizen (High Resistance): 90% of people. Their intent is "noisy" (mixed selfish/selfless desires). Magic is hard, inefficient, and exhausting. They require specific "Affinities" (Filters) to cast at all.
+The Saint (Superconductor): Total surrender of Ego (Altruism). Zero Resistance. They "ask" the field to cooperate.
+Advantage: Low Cost, High Control.
+Disadvantage: Sensory Backlash. They feel the physical consequences of their magic (e.g., they feel the heat of the fire they create).
+The Tyrant (High Voltage): Total weaponization of Ego (Selfishness). Forced Conductance. They "command" the field to obey.
+Advantage: Massive Power, No Sensory Pain.
+Disadvantage: Extremely High Cost (burns out batteries/people quickly).
+III. The Four Frequencies (Affinities)
+Every brain has a natural "Lens" that filters the field. Casting outside your affinity increases Synaptic Load by 300-400%.
+Thermodynamics (Red Logic):
+Domain: Energy transfer. Fire, Ice, Lightning.
+Function: Adding or removing heat.
+Character Prototype: Mara (The Mother/Fury).
+Kinetic Reinforcement (Gold Logic):
+Domain: Force, Vector manipulation, Density.
+Function: Making things harder, lighter, stopping momentum, physical shielding.
+Character Prototype: Silas (The Monk).
+Biomatics (Green Logic):
+Domain: Cellular communication, Neural bridging.
+Function: Healing (accelerating mitosis), Bonding with animals, Sensing life.
+Character Prototype: Elara (The Mute Girl).
+Chrono-Kinetics (Violet Logic):
+Domain: Causal editing, Time, Probability.
+Function: "Skipping" seconds, localized rewinds, seeing echoes of the past. Rare and dangerous.
+Character Prototype: Kael (The Outcast).
+Note: Zilver (Merlin) is a Saint-Class Universalist. He has no filter. He can access all four, but he thinks it is just "Luck" or "Logic." Note: Cygnus is a Tyrant-Class Universalist. He forces all four using human batteries (Cultists).
+IV. The Mechanics of Casting
+Logic-Based: You do not recite words. You must Visualize the Causal Chain. (e.g., To light a candle, you don't say "Fire"; you visualize the friction of molecules in the wick).
+Somatic Components: Hand waves/wands are just "Mental Crutches" to help the user focus. They are not required but help reduce Synaptic Load for beginners.
+The "Safety Rail": There is none. If you cast a fireball in a gas station and forget the gas, you die.
+V. Training (Progression)
+Method: Progressive Overload.
+Process: Casting to failure -> Micro-fractures in brain -> Rest/Food -> Neural Hypertrophy (Increased Capacity).
+Mastery: A "Master" is not someone who knows more spells; it is someone with the Endurance to channel high-voltage currents without passing out.
+
+
