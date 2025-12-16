@@ -457,27 +457,54 @@ mod tests {
 
     // Benchmark (Simple)
     #[test]
-    fn benchmark_large_processing() {
-        let start = Instant::now();
-        // Just simulating math load, not file IO for stability
-        let pool = ThreadPool::new(4);
-        let (tx, rx) = mpsc::channel();
+    fn benchmark_books_processing() {
+        let path_str = "./books";
+        let root_path = PathBuf::from(path_str);
+
+        if !root_path.exists() {
+            println!("Skipping benchmark: './books' directory not found.");
+            return;
+        }
+
+        let (files, _) = get_all_files(&root_path);
+        let total_files = files.len();
         
-        for _ in 0..1000 {
+        if total_files == 0 {
+            println!("Skipping benchmark: './books' is empty.");
+            return;
+        }
+
+        println!("Benchmarking processing of {} files...", total_files);
+        let start = Instant::now();
+        
+        let pool = ThreadPool::new(8);
+        let (tx, rx) = mpsc::channel();
+
+        for path in files {
             let tx = tx.clone();
             pool.execute(move || {
-                let mut x = 0;
-                for i in 0..1000 { x += i; }
-                let _ = tx.send(x);
+                let result = process_file(path);
+                let _ = tx.send(result);
             });
         }
         drop(tx);
-        
-        let _count = rx.iter().count();
+
+        let mut total_words = 0;
+        for analysis in rx {
+            total_words += analysis.stats.word_count;
+        }
+
         let duration = start.elapsed();
         
-        println!("Benchmark: Processed 1000 tasks in {:?}", duration);
-        // Assert it's reasonably fast (under 1 second)
-        assert!(duration < Duration::from_secs(1));
-    }
+        println!("---------------------------------------------------");
+        println!("BENCHMARK RESULT:");
+        println!("Processed {} files containing {} words.", total_files, total_words);
+        println!("Time taken: {:.2?}", duration);
+        if total_files > 0 {
+             println!("Average time per file: {:.2?}", duration / total_files as u32);
+        }
+        println!("---------------------------------------------------");
+
+        assert!(duration < Duration::from_secs(10));
+    } 
 }
